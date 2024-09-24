@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ttrmod",
+	"version": "${version}",
+	"name": "ttrmod",
+	"description": "wbms alpha测试模组",
+	"authors": [
+		"yc"
+	],
+	"contact": {
+		"homepage": "https://yuchen1204.github.com/wbms-source-code",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ttrmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"games.wbms.ttrmod.Ttrmod"
+		],
+		"fabric-datagen": [
+			"games.wbms.ttrmod.TtrmodDataGenerator"
+		],
+		"client": [
+			"games.wbms.ttrmod.ttrmodclient"
+		]
+	},
+	"mixins": [
+		"ttrmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
