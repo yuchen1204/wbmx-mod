@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "Ttrmod:item/ice_ether"
+    "layer0": "ttrmod:item/ice_ether"
   }
 }

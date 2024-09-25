@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"games.wbms.ttrmod.Ttrmod"
+			"games.wbms.ttrmod.ttrmod"
 		],
 		"fabric-datagen": [
-			"games.wbms.ttrmod.TtrmodDataGenerator"
+			"games.wbms.ttrmod.ttrmodDataGenerator"
 		],
 		"client": [
 			"games.wbms.ttrmod.ttrmodclient"
